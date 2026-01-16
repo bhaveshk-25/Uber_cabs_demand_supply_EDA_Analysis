@@ -13,13 +13,21 @@ This project conducts a comprehensive analysis of Uber ride request data to iden
 ## Project Structure
 ```
 Uber_demand-suppply_Data_Analysis/
-├── README.md                          # Project documentation
+├── README.md                         # Project documentation
 ├── Cab_request_data/
-│   └── Uber Request Data.csv         # Raw ride request dataset
+│   └── Uber Request Data.csv         # Raw and cleaned ride request datasets
 ├── Exploratory_data_analysis/
 │   └── EDA.ipynb                     # Jupyter notebook with exploratory analysis
-└── SQL_Insights/
-    └── Uber_Insights.sql            # SQL queries for business insights
+├── SQL_Insights/
+|   └── Uber_Insights.sql             # SQL queries for business insights
+└── Excel_Dashboards/
+     ├── uber_demand_supply_dashboard.xlsx
+     └── screenshots/
+          ├── Dashboard_1.png
+          ├── Dashboard_2.png
+          ├── Airport_vs_City.png
+          └── Hourly_demand_failure.png
+
 ```
 
 ## Dataset Description
@@ -94,6 +102,10 @@ Execute structured queries for business insights:
 ### Step 3: Generate Reports
 Use insights to create actionable recommendations and reports for stakeholders.
 
+## 📊 Excel Dashboard
+The repository includes an interactive Excel dashboard with KPIs, charts, and slicers.
+Screenshots are provided below for quick preview.
+
 ## Key Insights & Findings
 
 ### Supply-Demand Mismatch
@@ -118,23 +130,19 @@ Use insights to create actionable recommendations and reports for stakeholders.
 
 ## Technical Stack
 - **Language**: Python, SQL
-- **Tools**: Jupyter Notebook, Database (SQL-compatible)
+- **Tools**: Jupyter Notebook, Database (SQL- PostgreSQL), Excel
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn (for EDA)
 
 ## Author
 **Bhavesh Kumar**
 
 ## Project Status
-✓ Data Collection Complete  
+✓ Data Collection 
 ✓ EDA In Progress  
 ✓ SQL Analysis Complete  
-⏳ Business Recommendations: Pending
-
-## Version History
-- **v1.0** (January 2026): Initial project setup and analysis
+✓ Excel Dashboards
+✓ Business Recommendations
 
 ---
 
 **Last Updated**: January 16, 2026
-
-*For questions or contributions, please contact the project author.*
