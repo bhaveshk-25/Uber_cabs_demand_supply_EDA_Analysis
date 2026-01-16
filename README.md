@@ -136,12 +136,14 @@ Screenshots are provided below for quick preview.
 ## Author
 **Bhavesh Kumar**
 
-## Project Status
-✓ Data Collection 
-✓ EDA In Progress  
-✓ SQL Analysis Complete  
-✓ Excel Dashboards
-✓ Business Recommendations
+## 📌 Project Status
+
+✅ Data Collection  
+✅ EDA In Progress  
+✅ SQL Analysis Complete  
+✅ Excel Dashboards  
+✅ Business Recommendations  
+
 
 ---
 
