@@ -120,7 +120,7 @@ Screenshots are provided below for quick preview.
 - Uneven driver distribution across pickup points
 - Potential for dynamic allocation to improve success rates
 
-## Recommendations
+## Business Recommendations
 
 1. **Increase Driver Capacity**: Deploy additional drivers during peak demand hours identified in the analysis
 2. **Optimize Pickup Locations**: Concentrate resources at high-demand, low-supply areas
