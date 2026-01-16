@@ -8,7 +8,6 @@ Objective:
 - Analyze driver utilization
 
 Dataset: Uber ride request data
-Author: Bhavesh
 */
 
 CREATE TABLE IF NOT EXISTS Uber (
@@ -28,25 +27,28 @@ CREATE TABLE IF NOT EXISTS Uber (
 -- Quick sanity check: total records
 SELECT COUNT(*) AS total_records FROM uber;
 
+-- Demand per weekday
 SELECT request_day, COUNT(request_id) AS "No_of_requests"
 FROM Uber
 GROUP BY request_day
 ORDER BY "No_of_requests" DESC;
 
+-- Location specific demand 
 SELECT pickup_point,COUNT(*) AS "requests"
 FROM Uber
 GROUP BY pickup_point;
 
+-- Cancellations per pickup location
 SELECT pickup_point,COUNT(*) AS "requests cancelled"
 FROM Uber
 WHERE status = 'Cancelled'
 GROUP BY pickup_point;
 
+-- No vehicle availability per location
 SELECT pickup_point,COUNT(*) AS "No_cars"
 FROM Uber
 WHERE status = 'No Cars Available'
 GROUP BY pickup_point;
---------------------------------------------------------------
 
 -------- 1.Overall Trip Success Rate -------------------------
 
