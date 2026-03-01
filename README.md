@@ -40,7 +40,7 @@ Uber_demand-suppply_Data_Analysis/
 ### 1. Exploratory Data Analysis (EDA)
 - **File**: `Exploratory_data_analysis/EDA.ipynb`
 - **Technologies**: Python, Pandas, Matplotlib, Seaborn
-- **Activities**:
+- **Activities** :
   - Data loading and quality assessment
   - Missing value analysis
   - Temporal pattern identification
