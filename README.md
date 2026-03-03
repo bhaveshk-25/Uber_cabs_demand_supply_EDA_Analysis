@@ -108,7 +108,7 @@ Use insights to create actionable recommendations and reports for stakeholders.
 - Uneven driver distribution across pickup points
 - Potential for dynamic allocation to improve success rates
 
-## Recommendations
+## Business Recommendations
 
 1. **Increase Driver Capacity**: Deploy additional drivers during peak demand hours identified in the analysis
 2. **Optimize Pickup Locations**: Concentrate resources at high-demand, low-supply areas
@@ -118,23 +118,7 @@ Use insights to create actionable recommendations and reports for stakeholders.
 
 ## Technical Stack
 - **Language**: Python, SQL
-- **Tools**: Jupyter Notebook, Database (SQL-compatible)
+- **Tools**: Jupyter Notebook, Database (Postgres)
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn (for EDA)
 
-## Author
-**Bhavesh Kumar**
-
-## Project Status
-✓ Data Collection Complete  
-✓ EDA In Progress  
-✓ SQL Analysis Complete  
-⏳ Business Recommendations: Pending
-
-## Version History
-- **v1.0** (January 2026): Initial project setup and analysis
-
 ---
-
-**Last Updated**: January 16, 2026
-
-*For questions or contributions, please contact the project author.*
